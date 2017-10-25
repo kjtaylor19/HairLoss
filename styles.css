@@ -27,6 +27,18 @@ div.button{
   box-sizing: border-box;
 }
 
+div.buttonform{
+  width: 100%;
+  border: 1px;
+  border-color: #c39bd3;
+  border-style: solid;
+  padding: 10px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 div.buttonwrap{
   width: 100%;
   max-width: 375px;
@@ -123,6 +135,15 @@ h3.phone{
 p{
   font-family: arial, sans-serif;
   font-size: 18px;
+  text-align: left;
+  color: #2e4653;
+  margin-top: 15px;
+}
+
+p.note{
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
   text-align: left;
   color: #2e4653;
   margin-top: 15px;
