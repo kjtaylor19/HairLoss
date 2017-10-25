@@ -14,6 +14,17 @@ div.wrapper{
 }
 
 
+div.border{
+  width: 100%;
+  border: 1px;
+  border-color: #c39bd3;
+  border-style: solid;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+
 div.button{
   width: 100%;
   max-width: 150px;
@@ -38,6 +49,7 @@ div.buttonform{
   text-align: center;
   box-sizing: border-box;
 }
+
 
 div.buttonwrap{
   width: 100%;
@@ -83,10 +95,22 @@ div.navigationbar{
   margin-top: 0px;
 }
 
+div.video{
+  width: 100%;
+  text-align: center;
+}
+
 img.toplogo{
   float: left;
   padding: 10px;
 }
+
+img.checks{
+  float: left;
+  width:35px;
+  padding: 10px;
+}
+
 
 img.social{
   float: right;
@@ -124,6 +148,15 @@ h2{
   margin-top: 30px;
 }
 
+h2.center{
+  font-family: arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #9b59b6;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 h3.phone{
   font-family: arial, sans-serif;
   font-size: 26px;
@@ -144,7 +177,7 @@ p.note{
   font-family: arial, sans-serif;
   font-size: 14px;
   font-style: italic;
-  text-align: left;
+  text-align: center;
   color: #2e4653;
   margin-top: 15px;
 }
