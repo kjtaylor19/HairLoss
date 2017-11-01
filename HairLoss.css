@@ -14,6 +14,17 @@ div.wrapper{
 }
 
 
+div.border{
+  width: 100%;
+  border: 1px;
+  border-color: #c39bd3;
+  border-style: solid;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+
 div.button{
   width: 100%;
   max-width: 150px;
@@ -26,6 +37,19 @@ div.button{
   text-align: center;
   box-sizing: border-box;
 }
+
+div.buttonform{
+  width: 100%;
+  border: 1px;
+  border-color: #c39bd3;
+  border-style: solid;
+  padding: 10px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 
 div.buttonwrap{
   width: 100%;
@@ -60,6 +84,7 @@ div.footer{
   background-color: #c39bd3;
   padding: 10px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 div.navigationbar{
@@ -70,10 +95,21 @@ div.navigationbar{
   margin-top: 0px;
 }
 
+div.video{
+  width: 100%;
+  text-align: center;
+}
+
 img.toplogo{
   float: left;
   padding: 10px;
 }
+
+img.checks{
+  float: left;
+  width: 35px;
+}
+
 
 img.social{
   float: right;
@@ -96,16 +132,6 @@ img.hero{
   box-sizing: border-box;
 }
 
-img.Icon{
-  float: left;
-  width: 25%;
-  margin-top: 20px;
-  margin-bottom: 60px;
-  margin-right: 10px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
 h1{
   font-family: arial, sans-serif;
   font-size: 24px;
@@ -121,6 +147,15 @@ h2{
   margin-top: 30px;
 }
 
+h2.center{
+  font-family: arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #9b59b6;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 h3.phone{
   font-family: arial, sans-serif;
   font-size: 26px;
@@ -133,6 +168,15 @@ p{
   font-family: arial, sans-serif;
   font-size: 18px;
   text-align: left;
+  color: #2e4653;
+  margin-top: 15px;
+}
+
+p.note{
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
   color: #2e4653;
   margin-top: 15px;
 }
